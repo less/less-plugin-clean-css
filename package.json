@@ -1,7 +1,7 @@
 {
-    "name": "less-plugin-cleancss",
-    "version": "0.0.1",
-    "description": "cleancss plugin for less.js",
+    "name": "less-plugin-clean-css",
+    "version": "0.0.2",
+    "description": "clean-css plugin for less.js",
     "homepage": "http://lesscss.org",
     "author": {
         "name": "Luke Page"
@@ -10,16 +10,16 @@
         "The Core Less Team"
     ],
     "bugs": {
-        "url": "https://github.com/less/less-plugin-cleancss/issues"
+        "url": "https://github.com/less/less-plugin-clean-css/issues"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/less/less-plugin-cleancss.git"
+        "url": "https://github.com/less/less-plugin-clean-css.git"
     },
     "licenses": [
         {
             "type": "Apache v2",
-            "url": "https://github.com/less/less-plugin-cleancss/blob/master/LICENSE"
+            "url": "https://github.com/less/less-plugin-clean-css/blob/master/LICENSE"
         }
     ],
     "main": "lib/index.js",
