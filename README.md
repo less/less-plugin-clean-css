@@ -3,7 +3,7 @@
 less-plugin-clean-css
 =====================
 
-Post-processes the css and compresses it
+Compresses the css output from less using clean-css.
 
 ## lessc usage
 
@@ -30,4 +30,4 @@ less.render(lessString, { plugins: [cleanCSSPlugin] })
 
 ## Browser usage
 
-Browser usage is not supported at this time
+Browser usage is not supported at this time.
