@@ -1,6 +1,6 @@
 {
     "name": "less-plugin-clean-css",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "clean-css plugin for less.js",
     "homepage": "http://lesscss.org",
     "author": {
