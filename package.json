@@ -27,7 +27,7 @@
         "node": ">=0.4.2"
     },
 	"dependencies": {
-		"clean-css": "2.2.x"
+		"clean-css": "git://github.com/jakubpawlowicz/clean-css.git#ee6b3ca44601d06f83c77c8f2794faf55fe8ae96"
 	},
     "devDependencies": {
     },
