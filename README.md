@@ -21,7 +21,7 @@ See [clean-css](https://github.com/jakubpawlowicz/clean-css) for the available c
 
 ## Programmatic usage
 
-```
+```javascript
 var LessPluginCleanCSS = require('less-plugin-clean-css'),
     cleanCSSPlugin = new LessPluginCleanCSS({advanced: true});
 less.render(lessString, { plugins: [cleanCSSPlugin] })
