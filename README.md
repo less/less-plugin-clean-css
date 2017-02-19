@@ -1,7 +1,6 @@
-[![NPM version](https://badge.fury.io/js/less-plugin-clean-css.svg)](http://badge.fury.io/js/less-plugin-clean-css) [![Dependencies](https://david-dm.org/less/less-plugin-clean-css.svg)](https://david-dm.org/less/less-plugin-clean-css) [![devDependency Status](https://david-dm.org/less/less-plugin-clean-css/dev-status.svg)](https://david-dm.org/less/less-plugin-clean-css#info=devDependencies) [![optionalDependency Status](https://david-dm.org/less/less-plugin-clean-css/optional-status.svg)](https://david-dm.org/less/less-plugin-clean-css#info=optionalDependencies)
+[![NPM version](https://badge.fury.io/js/less-plugin-clean-css.svg)](http://badge.fury.io/js/less-plugin-clean-css) [![Dependencies](https://david-dm.org/less/less-plugin-clean-css.svg)](https://david-dm.org/less/less-plugin-clean-css)
 
-less-plugin-clean-css
-=====================
+# less-plugin-clean-css
 
 Compresses the css output from less using clean-css.
 
@@ -21,7 +20,7 @@ See [clean-css](https://github.com/jakubpawlowicz/clean-css) for the available c
 
 ## Programmatic usage
 
-```
+```js
 var LessPluginCleanCSS = require('less-plugin-clean-css'),
     cleanCSSPlugin = new LessPluginCleanCSS({advanced: true});
 less.render(lessString, { plugins: [cleanCSSPlugin] })
