@@ -2,7 +2,7 @@
 
 # less-plugin-clean-css
 
-Compresses the css output from less using clean-css.
+Compresses the css output from less using [clean-css](https://github.com/jakubpawlowicz/clean-css).
 
 ## lessc usage
 
@@ -16,7 +16,7 @@ and then on the command line,
 lessc file.less --clean-css="--s1 --advanced --compatibility=ie8"
 ```
 
-See [clean-css](https://github.com/jakubpawlowicz/clean-css) for the available command options - the only differences are `advanced` and `rebase` which we default to false, because it is not always entirely safe.
+See [clean-css](https://github.com/jakubpawlowicz/clean-css/tree/v3.0.1#how-to-use-clean-css-programmatically) for the available command options - the only differences are `advanced` and `rebase` which we default to false, because it is not always entirely safe.
 
 ## Programmatic usage
 
