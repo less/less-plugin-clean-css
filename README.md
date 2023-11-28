@@ -24,15 +24,17 @@ and then on the command line,
 lessc file.less --clean-css="--s1 --advanced --compatibility=ie8"
 ```
 
-See [clean-css](https://github.com/jakubpawlowicz/clean-css/tree/v3.0.1#how-to-use-clean-css-programmatically) for the available command options - the only differences are `advanced` and `rebase` which we default to false, because it is not always entirely safe.
+See [clean-css](https://github.com/jakubpawlowicz/clean-css/tree/v3.0.1#how-to-use-clean-css-programmatically) for the
+available command options - the only differences are `advanced` and `rebase` which we default to false, because it is
+not always entirely safe.
 
 ## Programmatic usage
 
 ```js
 var LessPluginCleanCSS = require('less-plugin-clean-css'),
     cleanCSSPlugin = new LessPluginCleanCSS({advanced: true});
-less.render(lessString, { plugins: [cleanCSSPlugin] })
-  .then(
+less.render(lessString, {plugins: [cleanCSSPlugin]})
+    .then(
 ```
 
 ## Browser usage
