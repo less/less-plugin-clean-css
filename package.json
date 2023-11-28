@@ -2,7 +2,7 @@
   "name": "less-plugin-clean-css",
   "version": "1.5.1",
   "description": "clean-css plugin for less.js",
-  "homepage": "http://lesscss.org",
+  "homepage": "https://lesscss.org",
   "author": "Luke Page",
   "contributors": [
     "The Core Less Team"
@@ -20,7 +20,7 @@
     "node": ">=0.10"
   },
   "dependencies": {
-    "clean-css": "^4.2.1"
+    "clean-css": "^5.3.2"
   },
   "keywords": [
     "less plugins",
