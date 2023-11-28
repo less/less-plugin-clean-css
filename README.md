@@ -6,13 +6,13 @@ Compresses the css output from less using [clean-css](https://github.com/jakubpa
 
 ## lessc usage
 
-```
+```bash
 npm install -g less-plugin-clean-css
 ```
 
 and then on the command line,
 
-```
+```bash
 lessc file.less --clean-css="--s1 --advanced --compatibility=ie8"
 ```
 
