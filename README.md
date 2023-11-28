@@ -6,6 +6,14 @@ Compresses the css output from less using [clean-css](https://github.com/jakubpa
 
 ## lessc usage
 
+First of all install less via
+
+```bash
+npm install -g less
+```
+
+then install the `less-plugin-clean-css`
+
 ```bash
 npm install -g less-plugin-clean-css
 ```
