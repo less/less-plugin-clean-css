@@ -26,5 +26,12 @@
     "less plugins",
     "cleancss",
     "less compression"
-  ]
+  ],
+    "devDependencies": {
+        "less": "4.2.0",
+        "mocha": "10.4.0"
+    },
+    "scripts": {
+        "test": "mocha"
+    }
 }
