@@ -1,4 +1,8 @@
-[![NPM version](https://badge.fury.io/js/less-plugin-clean-css.svg)](http://badge.fury.io/js/less-plugin-clean-css) [![Dependencies](https://david-dm.org/less/less-plugin-clean-css.svg)](https://david-dm.org/less/less-plugin-clean-css)
+<p align="center">
+    <a href="https://github.com/less/less-plugin-clean-css/actions?query=branch%3Amaster"><img src="https://github.com/less/less-plugin-clean-css/actions/workflows/build.yml/badge.svg?branch=master" alt="Github Actions CI"/></a>
+    <a href="https://www.npmtrends.com/less-plugin-clean-css"><img src="https://img.shields.io/npm/dm/less-plugin-clean-css.svg?sanitize=true" alt="Downloads"></a>
+    <a href="https://www.npmjs.com/package/less-plugin-clean-css"><img src="https://img.shields.io/npm/v/less-plugin-clean-css.svg?sanitize=true" /></a>
+</p>
 
 # less-plugin-clean-css
 
