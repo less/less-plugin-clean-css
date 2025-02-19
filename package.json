@@ -29,7 +29,7 @@
   ],
     "devDependencies": {
         "less": "4.2.0",
-        "mocha": "10.4.0"
+        "mocha": "10.8.2"
     },
     "scripts": {
         "test": "mocha"
